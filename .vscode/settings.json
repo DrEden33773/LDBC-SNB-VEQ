@@ -1,0 +1,12 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "cSpell.words": [
+    "autonotebook",
+    "Forumid",
+    "LDBC",
+    "organisation",
+    "Organisationid",
+    "Placeid"
+  ]
+}
