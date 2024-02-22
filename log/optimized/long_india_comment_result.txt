@@ -1,0 +1,9 @@
+Data file: ./out/optimized/data_graph.txt
+Query file: ./out/optimized/long_india_comment_query_graph.txt
+Output file: 
+Sum of |C(u)|: 167812
+Total Recursive Call Count: 33
+Number of Matches: 100323
+Filtering Time (ms): 1062.09
+Verification Time (ms): 70.9752
+Processing Time (ms): 1133.07
