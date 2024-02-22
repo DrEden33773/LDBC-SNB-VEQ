@@ -1,0 +1,9 @@
+Data file: ./out/original/data_graph.txt
+Query file: ./out/original/original_china_bi3_query_graph.txt
+Output file: 
+Sum of |C(u)|: 488316
+Total Recursive Call Count: 40584
+Number of Matches: 100000
+Filtering Time (ms): 898.218
+Verification Time (ms): 25031.8
+Processing Time (ms): 25930
