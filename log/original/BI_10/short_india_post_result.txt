@@ -1,9 +1,0 @@
-Data file: ./out/original/data_graph.txt
-Query file: ./out/original/short_india_post_query_graph.txt
-Output file: 
-Sum of |C(u)|: 73569
-Total Recursive Call Count: 10
-Number of Matches: 100084
-Filtering Time (ms): 278.737
-Verification Time (ms): 122.858
-Processing Time (ms): 401.596

@@ -1,9 +1,0 @@
-Data file: ./out/original/data_graph.txt
-Query file: ./out/original/short_china_comment_query_graph.txt
-Output file: 
-Sum of |C(u)|: 144792
-Total Recursive Call Count: 7
-Number of Matches: 100336
-Filtering Time (ms): 881.661
-Verification Time (ms): 604.767
-Processing Time (ms): 1486.43

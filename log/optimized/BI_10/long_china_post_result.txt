@@ -1,9 +1,0 @@
-Data file: ./out/optimized/data_graph.txt
-Query file: ./out/optimized/long_china_post_query_graph.txt
-Output file: 
-Sum of |C(u)|: 76904
-Total Recursive Call Count: 30
-Number of Matches: 101576
-Filtering Time (ms): 347.491
-Verification Time (ms): 47.5269
-Processing Time (ms): 395.018

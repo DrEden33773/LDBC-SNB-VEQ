@@ -1,9 +1,9 @@
-Data file: ./out/original/data_graph.txt
-Query file: ./out/original/india_query_graph.txt
+Data file: ./out/original/BI_11/data_graph.txt
+Query file: ./out/original/BI_11/india_query_graph.txt
 Output file: 
 Sum of |C(u)|: 3871
 Total Recursive Call Count: 131701
 Number of Matches: 100000
-Filtering Time (ms): 24.0865
-Verification Time (ms): 6375.04
-Processing Time (ms): 6399.13
+Filtering Time (ms): 23.6162
+Verification Time (ms): 6028.32
+Processing Time (ms): 6051.94
