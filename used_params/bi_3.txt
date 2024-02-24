@@ -1,0 +1,7 @@
+bi-3
+"tagClass"|"country"
+Saint|India
+President|India
+Song|China
+Philosopher|China
+Monarch|China
