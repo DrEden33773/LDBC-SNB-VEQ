@@ -13,6 +13,12 @@ class BaseLabel(StrEnum):
     Date = "date"
     EndDate = "endDate"
     TagClass = "tagClass"
+    PersonId = "personId"
+
+
+class MsgType(StrEnum):
+    Comment = "comment"
+    Post = "post"
 
 
 def get_inner_namespace(col_name: str) -> str:

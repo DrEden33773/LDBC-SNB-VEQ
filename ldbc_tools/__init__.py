@@ -1,5 +1,5 @@
 """ Function Tools """
 
-from qg import *
+from query_graph import *
 from bin_adapter import *
 from namespace import *

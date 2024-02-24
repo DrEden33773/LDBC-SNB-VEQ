@@ -1,10 +1,20 @@
 import os
 
 
-def qg_labels_builder(
-    common_prefix: list[str],
-):
-    pass
+def replace(
+    template: list[str],
+    indices: list[int],
+    replacements: list[str],
+) -> list[str]:
+    assert len(indices) == len(replacements)
+    for i in indices:
+        assert 0 <= i < len(template)
+
+    res = template.copy()
+    for i, r in zip(indices, replacements):
+        res[i] = r
+
+    return res
 
 
 def qg_emitter(
