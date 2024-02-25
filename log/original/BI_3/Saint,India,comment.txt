@@ -1,0 +1,9 @@
+Data file: ./out/original/data_graph.txt
+Query file: ./out/original/BI_3/Saint,India,comment.txt
+Output file: 
+Sum of |C(u)|: 36100
+Total Recursive Call Count: 178205
+Number of Matches: 100000
+Filtering Time (ms): 229.923
+Verification Time (ms): 26599.1
+Processing Time (ms): 26829.1

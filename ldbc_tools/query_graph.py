@@ -1,5 +1,11 @@
+from dataclasses import dataclass
 import os
-from typing import Optional
+
+
+@dataclass
+class QGMetaRecord:
+    labels: list[str]
+    edges: list[tuple[int, int]]
 
 
 def replace(

@@ -1,0 +1,9 @@
+Data file: ./out/original/data_graph.txt
+Query file: ./out/original/BI_3/Song,China,comment.txt
+Output file: 
+Sum of |C(u)|: 38547
+Total Recursive Call Count: 180742
+Number of Matches: 100000
+Filtering Time (ms): 236.292
+Verification Time (ms): 26749.7
+Processing Time (ms): 26986

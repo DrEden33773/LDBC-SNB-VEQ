@@ -36,8 +36,14 @@ def run_veq_m_100k(
                 print("    <No output>")
                 f.write("<No output>")
         print("<<< Done!")
+
     if not time_table is None:
-        processing_time = float(content.split(" ")[-1])
+        header = content.split(":")[0]
+        processing_time = (
+            float(content.split(" ")[-1])
+            if header == "Processing Time (ms)"
+            else float("nan")
+        )
         time_table.append(processing_time)
 
 

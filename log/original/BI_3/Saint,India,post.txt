@@ -1,0 +1,8 @@
+Data file: ./out/original/data_graph.txt
+Query file: ./out/original/BI_3/Saint,India,post.txt
+Output file: 
+Total Recursive Call Count: 0
+Number of Matches: 0
+Filtering Time (ms): 28.6267
+Verification Time (ms): 0
+Processing Time (ms): 28.6267
