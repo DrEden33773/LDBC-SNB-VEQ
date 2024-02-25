@@ -1,9 +1,0 @@
-Data file: ./out/optimized/data_graph.txt
-Query file: ./out/optimized/BI_10/4886,Cuba,Thing,3,comment.txt
-Output file: 
-Sum of |C(u)|: 20855
-Total Recursive Call Count: 7
-Number of Matches: 102392
-Filtering Time (ms): 162.588
-Verification Time (ms): 189.103
-Processing Time (ms): 351.691
