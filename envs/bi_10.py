@@ -1,4 +1,4 @@
-from base import *
+from .base import *
 import os
 
 """ BI 10 """
@@ -42,7 +42,7 @@ for e in [
     BI_10_ORIGINAL_Q_PRE,
     BI_10_OPTIMIZED_Q_PRE,
     BI_10_ORIGINAL_L_PRE,
-    BI_10_ORIGINAL_L_PRE,
+    BI_10_OPTIMIZED_L_PRE,
 ]:
     if not os.path.exists(e):
         os.makedirs(e)

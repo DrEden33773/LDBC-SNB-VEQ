@@ -1,6 +1,6 @@
 """ BI 11 """
 
-from base import *
+from .base import *
 import os
 
 BI_11_ORIGINAL_Q_PRE = f"{ORIGINAL_QUERY_PREFIX}/BI_11"

@@ -1,0 +1,9 @@
+Data file: ./out/optimized/data_graph.txt
+Query file: ./out/optimized/BI_10/60769,France,Politician,3,post.txt
+Output file: 
+Sum of |C(u)|: 18404
+Total Recursive Call Count: 11
+Number of Matches: 101178
+Filtering Time (ms): 103.88
+Verification Time (ms): 202.449
+Processing Time (ms): 306.329

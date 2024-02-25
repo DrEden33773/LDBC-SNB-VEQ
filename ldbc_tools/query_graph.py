@@ -1,18 +1,23 @@
 import os
+from typing import Optional
 
 
 def replace(
     template: list[str],
     indices: list[int],
     replacements: list[str],
+    ignore_on_nth: set[int] = set(),
 ) -> list[str]:
     assert len(indices) == len(replacements)
     for i in indices:
         assert 0 <= i < len(template)
 
     res = template.copy()
+    nth = 0
     for i, r in zip(indices, replacements):
-        res[i] = r
+        if not nth in ignore_on_nth:
+            res[i] = r
+        nth += 1
 
     return res
 

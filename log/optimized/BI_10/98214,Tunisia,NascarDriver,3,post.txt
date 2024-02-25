@@ -1,0 +1,9 @@
+Data file: ./out/optimized/data_graph.txt
+Query file: ./out/optimized/BI_10/98214,Tunisia,NascarDriver,3,post.txt
+Output file: 
+Sum of |C(u)|: 17029
+Total Recursive Call Count: 8
+Number of Matches: 100002
+Filtering Time (ms): 81.1157
+Verification Time (ms): 102.904
+Processing Time (ms): 184.019

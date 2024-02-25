@@ -1,5 +1,5 @@
-from tools import *
 from envs import *
+from .tools import *
 
 original_china_match_args = wsl_if_on_windows + [
     "./VEQ_M_100k",

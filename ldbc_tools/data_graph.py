@@ -1,4 +1,3 @@
-from prelude import *
 from datetime import datetime
 
 
@@ -25,7 +24,7 @@ explicit_date_labels = set(map(date_str_to_timestamp, raw_date_labels))
 explicit_end_date_labels = set(map(date_str_to_timestamp, raw_end_date_labels))
 
 explicit_personId_labels = {
-    "98214",
-    "4886",
-    "60769",
+    98214,
+    4886,
+    60769,
 }
