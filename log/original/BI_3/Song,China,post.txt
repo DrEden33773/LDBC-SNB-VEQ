@@ -3,6 +3,6 @@ Query file: ./out/original/BI_3/Song,China,post.txt
 Output file: 
 Total Recursive Call Count: 0
 Number of Matches: 0
-Filtering Time (ms): 28.4468
+Filtering Time (ms): 27.2211
 Verification Time (ms): 0
-Processing Time (ms): 28.4468
+Processing Time (ms): 27.2211

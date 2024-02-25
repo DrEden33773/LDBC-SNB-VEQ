@@ -1,9 +1,0 @@
-Data file: ./out/original/data_graph.txt
-Query file: ./out/original/BI_13/bi_13,post.txt
-Output file: 
-Sum of |C(u)|: 692933
-Total Recursive Call Count: 146
-Number of Matches: 100164
-Filtering Time (ms): 355.181
-Verification Time (ms): 365.761
-Processing Time (ms): 720.942

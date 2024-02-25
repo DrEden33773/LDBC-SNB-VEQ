@@ -3,6 +3,6 @@ Query file: ./out/optimized/BI_10/98214,Tunisia,NascarDriver,4,comment.txt
 Output file: 
 Total Recursive Call Count: 0
 Number of Matches: 0
-Filtering Time (ms): 7.49747
+Filtering Time (ms): 8.04338
 Verification Time (ms): 0
-Processing Time (ms): 7.49747
+Processing Time (ms): 8.04338

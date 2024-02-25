@@ -1,0 +1,9 @@
+Data file: ./out/optimized/data_graph.txt
+Query file: ./out/optimized/BI_13/China,comment.txt
+Output file: 
+Sum of |C(u)|: 367429
+Total Recursive Call Count: 2
+Number of Matches: 100268
+Filtering Time (ms): 700.345
+Verification Time (ms): 235.196
+Processing Time (ms): 935.541

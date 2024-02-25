@@ -3,6 +3,6 @@ Query file: ./out/optimized/BI_3/President,India,post.txt
 Output file: 
 Total Recursive Call Count: 0
 Number of Matches: 0
-Filtering Time (ms): 9.28269
+Filtering Time (ms): 10.9808
 Verification Time (ms): 0
-Processing Time (ms): 9.28269
+Processing Time (ms): 10.9808

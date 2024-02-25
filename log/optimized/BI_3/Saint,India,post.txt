@@ -3,6 +3,6 @@ Query file: ./out/optimized/BI_3/Saint,India,post.txt
 Output file: 
 Total Recursive Call Count: 0
 Number of Matches: 0
-Filtering Time (ms): 9.53107
+Filtering Time (ms): 10.1837
 Verification Time (ms): 0
-Processing Time (ms): 9.53107
+Processing Time (ms): 10.1837

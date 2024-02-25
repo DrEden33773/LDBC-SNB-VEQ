@@ -1,0 +1,9 @@
+Data file: ./out/optimized/data_graph.txt
+Query file: ./out/optimized/BI_13/China,post.txt
+Output file: 
+Sum of |C(u)|: 159722
+Total Recursive Call Count: 2
+Number of Matches: 100064
+Filtering Time (ms): 146.414
+Verification Time (ms): 263.519
+Processing Time (ms): 409.933

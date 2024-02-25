@@ -4,6 +4,6 @@ Output file:
 Sum of |C(u)|: 18330
 Total Recursive Call Count: 10
 Number of Matches: 100182
-Filtering Time (ms): 110.239
-Verification Time (ms): 347.985
-Processing Time (ms): 458.225
+Filtering Time (ms): 106.765
+Verification Time (ms): 385.361
+Processing Time (ms): 492.127

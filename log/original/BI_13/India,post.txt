@@ -1,0 +1,9 @@
+Data file: ./out/original/data_graph.txt
+Query file: ./out/original/BI_13/India,post.txt
+Output file: 
+Sum of |C(u)|: 165674
+Total Recursive Call Count: 100
+Number of Matches: 100118
+Filtering Time (ms): 120.055
+Verification Time (ms): 213.24
+Processing Time (ms): 333.295
