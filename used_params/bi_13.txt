@@ -1,7 +1,0 @@
-bi-13
-"country"|"endDate"
-India|2012-11-11
-India|2012-11-09
-India|2012-11-03
-China|2012-11-10
-China|2012-10-25

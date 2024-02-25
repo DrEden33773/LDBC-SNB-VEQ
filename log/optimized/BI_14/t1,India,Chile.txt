@@ -1,0 +1,9 @@
+Data file: ./out/optimized/data_graph.txt
+Query file: ./out/optimized/BI_14/t1,India,Chile.txt
+Output file: 
+Sum of |C(u)|: 190
+Total Recursive Call Count: 57
+Number of Matches: 179
+Filtering Time (ms): 1.90011
+Verification Time (ms): 26.1691
+Processing Time (ms): 28.0692

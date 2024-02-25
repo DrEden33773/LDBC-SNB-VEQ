@@ -1,0 +1,9 @@
+Data file: ./out/original/data_graph.txt
+Query file: ./out/original/BI_14/t1,China,Belgium.txt
+Output file: 
+Sum of |C(u)|: 144
+Total Recursive Call Count: 187
+Number of Matches: 86
+Filtering Time (ms): 2.48539
+Verification Time (ms): 35.8625
+Processing Time (ms): 38.3479
