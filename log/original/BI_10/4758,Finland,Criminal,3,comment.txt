@@ -1,8 +1,9 @@
 Data file: ./out/original/data_graph.txt
 Query file: ./out/original/BI_10/4758,Finland,Criminal,3,comment.txt
 Output file: 
-Total Recursive Call Count: 0
-Number of Matches: 0
-Filtering Time (ms): 1.14828
-Verification Time (ms): 0
-Processing Time (ms): 1.14828
+Sum of |C(u)|: 17133
+Total Recursive Call Count: 7
+Number of Matches: 100108
+Filtering Time (ms): 107.166
+Verification Time (ms): 456.847
+Processing Time (ms): 564.013

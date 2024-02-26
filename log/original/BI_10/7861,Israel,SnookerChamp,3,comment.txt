@@ -3,6 +3,6 @@ Query file: ./out/original/BI_10/7861,Israel,SnookerChamp,3,comment.txt
 Output file: 
 Total Recursive Call Count: 0
 Number of Matches: 0
-Filtering Time (ms): 2.4945
+Filtering Time (ms): 2.54
 Verification Time (ms): 0
-Processing Time (ms): 2.4945
+Processing Time (ms): 2.54
