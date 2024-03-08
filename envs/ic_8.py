@@ -1,0 +1,23 @@
+from .base import *
+import os
+
+""" IC 8 """
+
+IC_8_DG = COMMON_DG
+
+IC_8_DIRNAME = "IC_8"
+IC_8_ORIGINAL_Q_PRE = f"{ORIGINAL_QUERY_PREFIX}/{IC_8_DIRNAME}"
+IC_8_OPTIMIZED_Q_PRE = f"{OPTIMIZED_QUERY_PREFIX}/{IC_8_DIRNAME}"
+IC_8_ORIGINAL_L_PRE = f"{ORIGINAL_LOG_PREFIX}/{IC_8_DIRNAME}"
+IC_8_OPTIMIZED_L_PRE = f"{OPTIMIZED_LOG_PREFIX}/{IC_8_DIRNAME}"
+
+IC_8_DG_OPTIMIZED = f"{IC_8_OPTIMIZED_Q_PRE}/data_graph.txt"
+
+for e in [
+    IC_8_ORIGINAL_Q_PRE,
+    IC_8_OPTIMIZED_Q_PRE,
+    IC_8_ORIGINAL_L_PRE,
+    IC_8_OPTIMIZED_L_PRE,
+]:
+    if not os.path.exists(e):
+        os.makedirs(e)

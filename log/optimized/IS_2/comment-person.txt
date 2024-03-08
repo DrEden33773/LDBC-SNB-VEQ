@@ -1,0 +1,4 @@
+Data file: ./out/optimized/IS_2/data_graph.txt
+Query file: ./out/optimized/IS_2/comment-person.txt
+Output file: 
+Sum of |C(u)|: 2061775

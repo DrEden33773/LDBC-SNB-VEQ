@@ -1,0 +1,4 @@
+Data file: ./out/optimized/IC_8/data_graph.txt
+Query file: ./out/optimized/IC_8/comment_and_post.txt
+Output file: 
+Sum of |C(u)|: 2061788

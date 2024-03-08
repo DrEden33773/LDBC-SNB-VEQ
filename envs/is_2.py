@@ -1,0 +1,23 @@
+from .base import *
+import os
+
+""" IS 2 """
+
+IS_2_DG = COMMON_DG
+
+IS_2_DIRNAME = "IS_2"
+IS_2_ORIGINAL_Q_PRE = f"{ORIGINAL_QUERY_PREFIX}/{IS_2_DIRNAME}"
+IS_2_OPTIMIZED_Q_PRE = f"{OPTIMIZED_QUERY_PREFIX}/{IS_2_DIRNAME}"
+IS_2_ORIGINAL_L_PRE = f"{ORIGINAL_LOG_PREFIX}/{IS_2_DIRNAME}"
+IS_2_OPTIMIZED_L_PRE = f"{OPTIMIZED_LOG_PREFIX}/{IS_2_DIRNAME}"
+
+IS_2_DG_OPTIMIZED = f"{IS_2_OPTIMIZED_Q_PRE}/data_graph.txt"
+
+for e in [
+    IS_2_ORIGINAL_Q_PRE,
+    IS_2_OPTIMIZED_Q_PRE,
+    IS_2_ORIGINAL_L_PRE,
+    IS_2_OPTIMIZED_L_PRE,
+]:
+    if not os.path.exists(e):
+        os.makedirs(e)

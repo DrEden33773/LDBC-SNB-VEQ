@@ -1,5 +1,6 @@
 from typing import Optional
 import subprocess, os
+import time as Time
 
 
 def run_veq_m_100k(
@@ -14,7 +15,12 @@ def run_veq_m_100k(
             non_empty_lines = [line for line in f if line.strip() != ""]
             last_line = non_empty_lines[-1]
             print(f"    last_line ~> {last_line}")
-            time = float(last_line.split(" ")[-1])
+            header = last_line.split(":")[0]
+            time = (
+                float(last_line.split(" ")[-1])
+                if header == "Processing Time (ms)"
+                else float("nan")
+            )
             if not time_table is None:
                 time_table.append(time)
         return
@@ -22,6 +28,7 @@ def run_veq_m_100k(
     content = ""
     with open(result_path, "w") as f:
         print(f">>> Running: {task_name}...")
+        start_time_ns = Time.perf_counter_ns()
         with subprocess.Popen(
             args,
             stdout=subprocess.PIPE,
@@ -35,7 +42,9 @@ def run_veq_m_100k(
             else:
                 print("    <No output>")
                 f.write("<No output>")
-        print("<<< Done!")
+        end_time_ns = Time.perf_counter_ns()
+        elapsed_time_ms = (end_time_ns - start_time_ns) / 1_000_000
+        print(f"<<< Done! (Outer Elapsed Time: {elapsed_time_ms} ms)")
 
     if not time_table is None:
         header = content.split(":")[0]
@@ -44,6 +53,13 @@ def run_veq_m_100k(
             if header == "Processing Time (ms)"
             else float("nan")
         )
+        if header != "Processing Time (ms)":
+            print(
+                f"--- Warning: No `Processing Time (ms)` detected in `task({task_name})` (`Outer Elapsed Time` is NOT accurate). ---"
+            )
+            print(
+                f'--- ^^^^^^^^ `time_table` will be filled with `float("NaN")` only for marking. ---'
+            )
         time_table.append(processing_time)
 
 

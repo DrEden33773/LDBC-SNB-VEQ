@@ -15,3 +15,6 @@ from .bi_10 import *
 from .bi_11 import *
 from .bi_13 import *
 from .bi_14 import *
+from .ic_8 import *
+from .ic_12 import *
+from .is_2 import *

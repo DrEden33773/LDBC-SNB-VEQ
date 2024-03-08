@@ -1,0 +1,4 @@
+Data file: ./out/optimized/IC_12/data_graph.txt
+Query file: ./out/optimized/IC_12/tag-tagclass.txt
+Output file: 
+Sum of |C(u)|: 16062

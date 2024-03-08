@@ -4,11 +4,14 @@
   "cSpell.words": [
     "autonotebook",
     "Forumid",
+    "hastype",
     "ipynb",
     "LDBC",
     "organisation",
     "Organisationid",
     "Placeid",
+    "replyof",
+    "Subclassof",
     "tagclass"
   ]
 }
