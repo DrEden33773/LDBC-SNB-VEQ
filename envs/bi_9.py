@@ -1,0 +1,23 @@
+from .base import *
+import os
+
+""" BI 9 """
+
+BI_9_DG = COMMON_DG
+
+BI_9_DIRNAME = "BI_9"
+BI_9_ORIGINAL_Q_PRE = f"{ORIGINAL_QUERY_PREFIX}/{BI_9_DIRNAME}"
+BI_9_OPTIMIZED_Q_PRE = f"{OPTIMIZED_QUERY_PREFIX}/{BI_9_DIRNAME}"
+BI_9_ORIGINAL_L_PRE = f"{ORIGINAL_LOG_PREFIX}/{BI_9_DIRNAME}"
+BI_9_OPTIMIZED_L_PRE = f"{OPTIMIZED_LOG_PREFIX}/{BI_9_DIRNAME}"
+
+BI_9_DG_OPTIMIZED = f"{BI_9_OPTIMIZED_Q_PRE}/data_graph.txt"
+
+for e in [
+    BI_9_ORIGINAL_Q_PRE,
+    BI_9_OPTIMIZED_Q_PRE,
+    BI_9_ORIGINAL_L_PRE,
+    BI_9_OPTIMIZED_L_PRE,
+]:
+    if not os.path.exists(e):
+        os.makedirs(e)

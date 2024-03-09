@@ -1,0 +1,10 @@
+Data file: ./out/original/data_graph.txt
+Query file: ./out/original/BI_9/comment-post-person.txt
+Output file: 
+Sum of |C(u)|: 1216823
+Total Recursive Call Count: 1835
+Number of Matches: 100003
+Filtering Time (ms): 852.408
+Verification Time (ms): 4189.79
+Processing Time (ms): 5042.2
+Outer Elapsed Time (ms): 27106.3615

@@ -92,3 +92,18 @@ class QueryBuilder:
             time_table,
         )
         return time_table
+
+    def run_with_elapsed_time_table_ret(self) -> tuple[list[float], list[float]]:
+        time_table = list[float]()
+        outer_elapsed_time_table = list[float]()
+        result_path_list = [
+            f"{self.LOG_PRE}/{task_name}.txt" for task_name in self.task_names
+        ]
+        run_multiple_veq_m_100k(
+            result_path_list,
+            self.task_names,
+            self.args_list,
+            time_table,
+            outer_elapsed_time_table,
+        )
+        return time_table, outer_elapsed_time_table

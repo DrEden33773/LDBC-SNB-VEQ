@@ -1,8 +1,0 @@
-Data file: ./out/original/data_graph.txt
-Query file: ./out/original/BI_10/2199023259494,Singapore,SnookerChamp,4,post.txt
-Output file: 
-Total Recursive Call Count: 0
-Number of Matches: 0
-Filtering Time (ms): 0.78565
-Verification Time (ms): 0
-Processing Time (ms): 0.78565
