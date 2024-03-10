@@ -1,0 +1,10 @@
+Data file: ./out/optimized/BI_11/data_graph.txt
+Query file: ./out/optimized/BI_11/person^~country.txt
+Output file: 
+Sum of |C(u)|: 11928
+Total Recursive Call Count: 22687
+Number of Matches: 75570
+Filtering Time (ms): 77.824
+Verification Time (ms): 2642.24
+Processing Time (ms): 2720.06
+Outer Elapsed Time (ms): 18133.2707

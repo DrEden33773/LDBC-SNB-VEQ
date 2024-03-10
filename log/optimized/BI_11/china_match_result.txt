@@ -1,9 +1,0 @@
-Data file: ./out/optimized/data_graph.txt
-Query file: ./out/optimized/BI_11/china_query_graph.txt
-Output file: 
-Sum of |C(u)|: 2437
-Total Recursive Call Count: 15366
-Number of Matches: 71004
-Filtering Time (ms): 14.9738
-Verification Time (ms): 2154.41
-Processing Time (ms): 2169.38

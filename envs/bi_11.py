@@ -21,7 +21,7 @@ BI_11_DG = COMMON_DG
 BI_11_CHINA_QG = f"{BI_11_ORIGINAL_Q_PRE}/china_query_graph.txt"
 BI_11_INDIA_QG = f"{BI_11_ORIGINAL_Q_PRE}/india_query_graph.txt"
 
-BI_11_DG_OPTIMIZED = COMMON_DG_OPTIMIZED
+BI_11_DG_OPTIMIZED = f"{BI_11_OPTIMIZED_Q_PRE}/data_graph.txt"
 BI_11_CHINA_QG_OPTIMIZED = f"{BI_11_OPTIMIZED_Q_PRE}/china_query_graph.txt"
 BI_11_INDIA_QG_OPTIMIZED = f"{BI_11_OPTIMIZED_Q_PRE}/india_query_graph.txt"
 

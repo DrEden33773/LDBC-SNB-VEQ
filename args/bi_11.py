@@ -30,3 +30,17 @@ optimized_india_match_args = wsl_if_on_windows + [
     "-qg",
     BI_11_INDIA_QG_OPTIMIZED,
 ]
+
+bi_11_original_args_starting = wsl_if_on_windows + [
+    "./VEQ_M_100k",
+    "-dg",
+    BI_11_DG,
+    "-qg",
+]
+
+bi_11_optimized_args_starting = wsl_if_on_windows + [
+    "./VEQ_M_100k",
+    "-dg",
+    BI_11_DG_OPTIMIZED,
+    "-qg",
+]

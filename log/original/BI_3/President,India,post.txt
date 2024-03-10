@@ -1,8 +1,0 @@
-Data file: ./out/original/data_graph.txt
-Query file: ./out/original/BI_3/President,India,post.txt
-Output file: 
-Total Recursive Call Count: 0
-Number of Matches: 0
-Filtering Time (ms): 32.7491
-Verification Time (ms): 0
-Processing Time (ms): 32.7491

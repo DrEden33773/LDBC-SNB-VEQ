@@ -1,9 +1,0 @@
-Data file: ./out/optimized/data_graph.txt
-Query file: ./out/optimized/BI_3/President,India,comment.txt
-Output file: 
-Sum of |C(u)|: 6745
-Total Recursive Call Count: 5963
-Number of Matches: 3531
-Filtering Time (ms): 74.7836
-Verification Time (ms): 958.226
-Processing Time (ms): 1033.01
