@@ -1,0 +1,5 @@
+Data file: ./out/optimized/BI_13/data_graph.txt
+Query file: ./out/optimized/BI_13/comment.txt
+Output file: 
+Sum of |C(u)|: 1221401
+Outer Elapsed Time (ms): 16041.6358

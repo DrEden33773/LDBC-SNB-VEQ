@@ -1,0 +1,5 @@
+Data file: ./out/optimized/BI_13/data_graph.txt
+Query file: ./out/optimized/BI_13/post.txt
+Output file: 
+Sum of |C(u)|: 610387
+Outer Elapsed Time (ms): 14213.2384
