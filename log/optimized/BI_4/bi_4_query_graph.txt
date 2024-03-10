@@ -2,3 +2,4 @@ Data file: ./out/optimized/BI_4/data_graph.txt
 Query file: ./out/optimized/BI_4/bi_4_query_graph.txt
 Output file: 
 Sum of |C(u)|: 53961
+Outer Elapsed Time (ms): 16335.4245
