@@ -1,0 +1,10 @@
+Data file: ./out/optimized/BI_14/data_graph.txt
+Query file: ./out/optimized/BI_14/comment_and_post.txt
+Output file: 
+Sum of |C(u)|: 2012832
+Total Recursive Call Count: 120
+Number of Matches: 100172
+Filtering Time (ms): 5777.89
+Verification Time (ms): 206.808
+Processing Time (ms): 5984.7
+Outer Elapsed Time (ms): 24364.6866

@@ -1,9 +1,0 @@
-Data file: ./out/original/data_graph.txt
-Query file: ./out/original/BI_14/t1,India,Greece.txt
-Output file: 
-Sum of |C(u)|: 212
-Total Recursive Call Count: 295
-Number of Matches: 135
-Filtering Time (ms): 3.07221
-Verification Time (ms): 49.6881
-Processing Time (ms): 52.7604

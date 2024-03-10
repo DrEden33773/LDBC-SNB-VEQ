@@ -1,0 +1,10 @@
+Data file: ./out/optimized/BI_14/data_graph.txt
+Query file: ./out/optimized/BI_14/sub_task_1.txt
+Output file: 
+Sum of |C(u)|: 8734
+Total Recursive Call Count: 4309
+Number of Matches: 81760
+Filtering Time (ms): 35.5395
+Verification Time (ms): 18656.1
+Processing Time (ms): 18691.6
+Outer Elapsed Time (ms): 33470.9367
