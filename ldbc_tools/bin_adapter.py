@@ -70,6 +70,8 @@ def run_veq_m_100k(
                 f'--- ^^^^^^^^ `time_table` will be filled with `float("NaN")` only for marking. ---'
             )
         time_table.append(processing_time)
+    if not outer_elapsed_time_table is None:
+        outer_elapsed_time_table.append(elapsed_time_ms)
 
 
 def run_multiple_veq_m_100k(

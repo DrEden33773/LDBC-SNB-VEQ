@@ -2,3 +2,4 @@ Data file: ./out/original/data_graph.txt
 Query file: ./out/original/IC_12/tag-tagclass-tagclass.txt
 Output file: 
 Sum of |C(u)|: 15311
+Outer Elapsed Time (ms): 21913.6432
